@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">juegoI+D</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Todos">Todos</string>
+    <string name="bconsulta">Enviar consulta</string>
+    <string name="cadena">Cadena a investigar</string>
+    <string name="unos">1</string>
+    <string name="instruciones">I+D:cada inteto es -1 $</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="diez">10</string>
+    <string name="once">11</string>
+    <string name="doce">12</string>
+    <string name="trece">13</string>
+    <string name="catorce">14</string>
+    <string name="quince">15</string>
+    <string name="diezseis">16</string>
+    <string name="parteBaja">I+D:cada inteto es -1 $</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="tu_nombre">tu nombre:</string>
+    <string name="crea_una_partida_nueva">Crea una partida nueva:</string>
+    <string name="pon_el_codigo">Pon el codigo</string>
+    <string name="unirse">Unirse</string>
+</resources>

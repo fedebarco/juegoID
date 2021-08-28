@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".ui.Colores">
+
+    <ListView
+        android:id="@+id/todasb"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="3" />
+
+    <TextView
+        android:id="@+id/activos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/cadena"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/primer"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/segundo"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/tercero"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/cuarto"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/quinto"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+
+        <TextView
+            android:id="@+id/sexto"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/septimo"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/octavo"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+
+        <TextView
+            android:id="@+id/noveno"
+            style="@style/EspecialTextStyle"
+            android:background="@android:color/black"
+            android:text="@string/unos" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/instruciones"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/uno"
+                style="@style/EspecialTextStyle"
+                android:background="@color/white"
+                android:text="@string/unos" />
+
+            <TextView
+                android:id="@+id/dos"
+                style="@style/EspecialTextStyle"
+                android:background="@color/purple_700"
+                android:text="@string/dos" />
+
+            <TextView
+                android:id="@+id/tres"
+                style="@style/EspecialTextStyle"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/tres" />
+
+            <TextView
+                android:id="@+id/cuatro"
+                style="@style/EspecialTextStyle"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/cuatro" />
+
+            <TextView
+                android:id="@+id/cinco"
+                style="@style/EspecialTextStyle"
+                android:background="@color/amar"
+                android:text="@string/cinco" />
+
+            <TextView
+                android:id="@+id/seis"
+                style="@style/EspecialTextStyle"
+                android:background="@color/azul"
+                android:text="@string/seis" />
+
+            <TextView
+                android:id="@+id/siete"
+                style="@style/EspecialTextStyle"
+                android:background="@color/cia"
+                android:text="@string/siete" />
+
+            <TextView
+                android:id="@+id/ocho"
+                style="@style/EspecialTextStyle"
+                android:background="@color/ver"
+                android:text="@string/ocho" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nueve"
+                style="@style/EspecialTextStyle"
+                android:background="@color/roj"
+                android:text="@string/nueve" />
+
+            <TextView
+                android:id="@+id/diez"
+                style="@style/EspecialTextStyle"
+                android:background="@color/teal_700"
+                android:text="@string/diez" />
+
+            <TextView
+                android:id="@+id/once"
+                style="@style/EspecialTextStyle"
+                android:background="@android:color/holo_blue_bright"
+                android:text="@string/once" />
+
+            <TextView
+                android:id="@+id/doce"
+                style="@style/EspecialTextStyle"
+                android:background="@android:color/darker_gray"
+                android:text="@string/doce" />
+
+            <TextView
+                android:id="@+id/trece"
+                style="@style/EspecialTextStyle"
+                android:background="@color/mor"
+                android:text="@string/trece" />
+
+            <TextView
+                android:id="@+id/catorce"
+                style="@style/EspecialTextStyle"
+                android:background="@android:color/holo_green_light"
+                android:text="@string/catorce" />
+            <TextView
+                android:id="@+id/quince"
+                style="@style/EspecialTextStyle"
+                android:background="@color/ap"
+                android:text="@string/quince" />
+
+            <TextView
+                android:id="@+id/diezseis"
+                style="@style/EspecialTextStyle"
+                android:background="@color/op"
+                android:text="@string/diezseis" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/parteBaja"
+        android:textSize="30sp" />
+
+</LinearLayout>

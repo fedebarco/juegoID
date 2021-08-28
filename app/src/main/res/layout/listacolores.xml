@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:id="@+id/textoColores"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:ellipsize="start"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"/>
+    <TextView
+        android:id="@+id/puntajeColores"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:ellipsize="start"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"/>
+    <TextView
+        android:id="@+id/CompartidasColores"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="end"
+        android:ellipsize="start"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"/>
+
+</LinearLayout>

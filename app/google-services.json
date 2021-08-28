@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068295660055",
+    "project_id": "juegoid",
+    "storage_bucket": "juegoid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068295660055:android:3db498048cde47f07df252",
+        "android_client_info": {
+          "package_name": "com.example.juegoid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068295660055-vjf2ql05bmtjh8pi720tnuqj75881nuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9qMmpO9bP75SdSb4Qm-fffY4iD9Lli6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068295660055-vjf2ql05bmtjh8pi720tnuqj75881nuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
